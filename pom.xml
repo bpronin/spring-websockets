@@ -11,6 +11,7 @@
     <!--see examples:
         http://syntx.io/using-websockets-in-java-using-spring-4/
         http://spring.io/guides/gs/messaging-stomp-websocket/
+        http://syntx.io/using-websockets-in-java-using-spring-4/
     -->
 
     <dependencies>
@@ -38,6 +39,11 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>1.1.4.RELEASE</version>
         </dependency>
     </dependencies>
 
